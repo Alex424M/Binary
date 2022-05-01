@@ -179,6 +179,13 @@ h6 {
   text-align: center;
   border: 1px solid white;
   padding: 20px 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header__btn:hover {
+  color: black;
+  background-color: white;
 }
 
 .nav {
@@ -210,6 +217,10 @@ h6 {
   font-family: "Lato";
   color: #000;
   font-weight: 400;
+}
+
+.item:hover {
+  background-color: #f3f3f3;
 }
 
 .about {
@@ -264,10 +275,19 @@ h6 {
 }
 
 .about__coulumn {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333%;
-          flex: 0 0 33.333%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
   padding: 0 7px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.about__coulumn:hover {
+  background-color: #f3f3f3;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
 }
 
 .about-item {
@@ -533,8 +553,7 @@ h6 {
 }
 
 input:invalid:required {
-  background-image: -webkit-gradient(linear, left top, right top, from(pink), to(lightgreen));
-  background-image: linear-gradient(to right, pink, lightgreen);
+  border: 1px solid #a93f3f;
 }
 
 .contact__email {
@@ -583,6 +602,12 @@ input:invalid:required {
           flex: 0 0 25%;
   text-align: center;
   color: #a4a4a4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer__columns:hover {
+  color: #fff;
 }
 
 .footer__copyright {

@@ -1,15 +1,14 @@
-const button = document.querySelector('.form__input__btn');
+const form = document.querySelector('.form__contact');
 const inputs = document.querySelectorAll('.form__input');
 
-button.addEventListener('click', function(){
-    try{
-        for(let i=0; i<inputs.length;i++){
-            if(inputs[i].value==''){
-                throw "Ошибка" 
-            }
+function validate_form() {
+    let valid = true;
+    for (let i = 0; i < inputs.length; i++) {
+        inputs[i].style.border = "0px solid red";
+        if (inputs[i].value == "") {
+            valid = false;
+            inputs[i].style.border = "1px solid red";
         }
     }
-    catch(e){
-        console.error(e);
-    }  
-});
+    return valid;
+}
