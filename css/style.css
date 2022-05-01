@@ -714,6 +714,13 @@ input:invalid:required {
     max-width: 450px;
   }
 
+  .about__coulumn:hover {
+    background-color: #fff;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333%;
+            flex: 0 0 33.3333%;
+  }
+
   .about__title {
     padding: 0px 0px 45px 0px;
   }
@@ -844,6 +851,17 @@ input:invalid:required {
             flex: 0 0 50%;
   }
   .about__coulumn:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+
+  .about__coulumn:hover {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+  .about__coulumn:hover:last-child:hover {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;

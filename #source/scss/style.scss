@@ -545,6 +545,10 @@ input:invalid:required {
     .about__header {
         max-width: 450px;
     }
+    .about__coulumn:hover {
+        background-color: #fff;
+        flex: 0 0 33.3333%;
+    }
     .about__title {
         padding: 0px 0px 45px 0px;
     }
@@ -640,6 +644,12 @@ input:invalid:required {
     .about__coulumn {
         flex: 0 0 50%;
         &:last-child {
+            flex: 0 0 100%;
+        }
+    }
+    .about__coulumn:hover {
+        flex: 0 0 50%;
+        &:last-child:hover {
             flex: 0 0 100%;
         }
     }
