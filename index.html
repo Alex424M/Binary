@@ -1,162 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <title>Binary</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/css/style.css">
 </head>
-
 <body>
     <div class="wrapper">
-        <header class="header" id="headerId">
-            <div class="header__img">
-                <img src="img/Header.png" alt="">
-            </div>
-            <div class="header__container container">
-                <div class="header__logo">
-                    <img src="img/logo.png" alt="">
+        <main class="main" id="main">
+            <div class="main__container">
+                <div class="main__logo logo">
+                    <img src="imgs/logo.png" alt="" class="logo__img">
                 </div>
-                <div class="header__title">Clear, smart, attractive design</div>
-                <div class="header__subtitle">for your app, logo, website</div>
-                <div class="header__more"><a href="#navId" class="header__btn">READ MORE</a></div>
+                <div class="main__header header">
+                    <div class="header__title">Clear, smart, attractive design</div>
+                    <div class="main__text">for your app, logo, website</div>
+                </div>
+                <div class="main__btn btn">
+                    <a href="#" class="btn__item">READ MORE</a>
+                </div>
+                <div class="main__arrow arrow-8">
+                    
+                </div>
             </div>
-        </header>
+            <div class="main__BG">
+                <img src="imgs/BG-Header.png" alt="">
+            </div>
+            
+        </main>
         <nav class="nav">
-            <div class="nav__container container">
-                <div class="nav__row" id="navId">
-                    <a class="nav__item item" href="#headerId">HOME</a>
-                    <a class="nav__item item" href="#aboutId">ABOUT US</a>
-                    <a class="nav__item item" href="#partnersId">PARTNERS</a>
-                    <a class="nav__item item" href="#contactId">CONTACT</a>
+            <div class="nav__container">
+                <div class="nav__row">
+                    <a href="#main" class="nav__item">Home</a>
+                    <a href="#about" class="nav__item">About us</a>
+                    <a href="#portfolio" class="nav__item">Portfolio</a>
+                    <a href="#contact" class="nav__item">Contact</a>
                 </div>
             </div>
         </nav>
-        <article class="about" id="aboutId">
-            <div class="about__container container">
-                <div class="about__header">
-                    <div class="about__title title">About</div>
-                    <div class="about__text">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. In our design process, we make sure to stay one step ahead of the latest trends, never forgetting to abide by key web
-                        standards.
-                    </div>
+        <section class="about" id="about">
+            <div class="about__container">
+                <div class="about__title title">About</div>
+                <div class="about__text text">
+                    We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. 
+In our design process, we make sure to stay one step ahead of the latest trends, 
+never forgetting to abide by key web standards.
                 </div>
                 <div class="about__row">
-                    <div class="about__coulumn">
-                        <div class="about-item">
-                            <div class="about-item__icon"><img src="img/icons/1.png" alt=""></div>
-                            <div class="about-item__title">WEB</div>
-                            <div class="about-item__subtitle">We tend to deliver unique and functional design, through innovation and creativity.</div>
+                    <div class="about__item item">
+                        <div class="item__icn">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42px" height="32px">
+                                <image  x="0px" y="0px" width="42px" height="32px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAgBAMAAACWdvcOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEWtoHStoHStoHStoHStoHStoHStoHStoHT///87Z+giAAAAB3RSTlMAzzBAEO8gcUHKGQAAAAFiS0dECIbelXoAAAAHdElNRQfnCRQUMjYsG+lnAAAATklEQVQoz2MQL8cEhQxFDJjAnKEAiyg7Q4FrAAgSJ4rdBKyi5dgAAykAm7npDAVsmGaB3FAAZZEiygZ3F7kmDEfbsIcvJsAlij31YU2pAIOERgiMZ9OOAAAAAElFTkSuQmCC" />
+                            </svg>  
                         </div>
+                        <div class="item__mainTxt mainTxt">Web</div>
+                        <div class="item__text text">We tend to deliver unique and 
+                            functional design, through 
+                            innovation and creativity.</div>
                     </div>
-                    <div class="about__coulumn">
-                        <div class="about-item">
-                            <div class="about-item__icon"><img src="img/icons/2.png" alt=""></div>
-                            <div class="about-item__title">WEB</div>
-                            <div class="about-item__subtitle">We tend to deliver unique and functional design, through innovation and creativity.</div>
+                    <div class="about__item item">
+                        <div class="item__icn">
+                            <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="32px" height="32px">
+<image  x="0px" y="0px" width="32px" height="32px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEWtoHStoHStoHStoHStoHStoHStoHStoHT///87Z+giAAAAB3RSTlMAzzBAIBDvzdUN2gAAAAFiS0dECIbelXoAAAAHdElNRQfnCRQUMxGQCm1NAAAARElEQVQoz2MQL4eDQgYQKGKAA3MwWYAQYKeFAAMBAXGo42ACLEVQxxWgKmUfFQCCsASQAGsabgFkLfDIhoUpLDnAQh0AnLooKNaX450AAAAASUVORK5CYII=" />
+</svg>
                         </div>
+                        <div class="item__mainTxt mainTxt">IOS and Android</div>
+                        <div class="item__text text">We seek to bring new businesses and 
+                            customers closer together through valuable 
+                            insights and proper targeting.</div>
                     </div>
-                    <div class="about__coulumn">
-                        <div class="about-item">
-                            <div class="about-item__icon"><img src="img/icons/3.png" alt=""></div>
-                            <div class="about-item__title">WEB</div>
-                            <div class="about-item__subtitle">We tend to deliver unique and functional design, through innovation and creativity.</div>
+                    <div class="about__item item">
+                        <div class="item__icn">
+                            <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="42px" height="32px">
+<image  x="0px" y="0px" width="42px" height="32px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAgCAMAAABThhoPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEWtoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHStoHT///8/AyU1AAAAEHRSTlMAMIC/UM/fj2BAIJ/vEHCv8zSgoQAAAAFiS0dEEeK1PboAAAAHdElNRQfnCRQUMx4AtXDcAAABRklEQVQ4y5VUWxLDIAjUKChqIvc/bVmTaW36DBM+grgsD3HuLn4JOiQs3n2TSMopi0lOrBQ/OpagVR6/UjWUD5CN5Nki1N4CZ60rLlQGVa5wWqvmN5hagcMaNnDdgjJiVH3BLQ2eSfudXema4NvOfAOtMD+Fy7i+UjiHt2ipoZR5FDbgkm+GKycKVGGz40Jao0isSgWpGkKl2dPDxB2U6WiSJ5DsDIi5bwuDgx0RKO+ykqEVROdlTso41YCABhCtsBwRyggFY5bmxGDkbT+I2kU60HB5YwAM3dQt6kB1aNwp7ySjguhQsWQ1Zav04boe6rxsKpPGxjYhsXX3cPVDi36Q4l4IeCEWWd6ifk+rTVx/F+tegT9aUI7vQmPP4+LncenPU/h1CE8v7v/RvvJgLjzDK4/7ysq4sojcY735X+ttNOnH0rwB1mMXCESAh6MAAAAASUVORK5CYII=" />
+</svg>
                         </div>
+                        <div class="item__mainTxt mainTxt">Marketing</div>
+                        <div class="item__text text">Well help you establish the right goals 
+                            and build the right paths. Success depends 
+                            on setting the right intention.</div>
                     </div>
                 </div>
             </div>
-        </article>
-        <article class="partners" id="partnersId">
-            <div class="partners__bckgrnd">
-                <img src="img/partners.png" alt="">
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__container">
+                <div class="portfolio__title title">Portfolio</div>
+                <div class="portfolio__nav nav">
+                    <a href="#" class="nav__item">all</a>
+                    <a href="#" class="nav__item">web</a>
+                    <a href="#" class="nav__item">apps</a>
+                    <a href="#" class="nav__item">other</a>
+                </div>
+                <div class="portfolio__works works">
+                    <div class="works__item"></div>
+                    <div class="works__item"></div>
+                    <div class="works__item"></div>
+                    <div class="works__item"></div>
+                    <div class="works__item"></div>
+                    <div class="works__item"></div>
+                </div>
+                <div class="portfolio__row">
+                    <a href="#" class="portfolio__btn">Read more</a>
+                </div>
             </div>
-            <div class="partners__container container">
+        </section>
+        <section class="partners">
+            <div class="partners__container">
                 <div class="partners__title">Our partners</div>
                 <div class="partners__row">
-                    <div class="partners__columns">
-                        <div class="partners__item">
-                            <img src="img/icons/4.png" alt="">
-                        </div>
+                    <div class="partners__item">
+                        <img src="imgs/icn/2.png" alt="">
                     </div>
-                    <div class="partners__columns">
-                        <div class="partners__item">
-                            <img src="img/icons/5.png" alt="">
-                        </div>
+                    <div class="partners__item">
+                        <img src="imgs/icn/3.png" alt="">
                     </div>
-                    <div class="partners__columns">
-                        <div class="partners__item">
-                            <img src="img/icons/6.png" alt="">
-                        </div>
+                    <div class="partners__item">
+                        <img src="imgs/icn/4.png" alt="">
                     </div>
-                    <div class="partners__columns">
-                        <div class="partners__item">
-                            <img src="img/icons/7.png" alt="">
-                        </div>
+                    <div class="partners__item">
+                        <img src="imgs/icn/5.png" alt="">
                     </div>
                 </div>
             </div>
-        </article>
-        <article class="contact" id="contactId">
-            <div class="contact__container container">
+            <div class="partners__bg">
+                <img src="imgs/BG-Header copy.png" alt="">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__container">
                 <div class="contact__title title">Contact</div>
                 <div class="contact__row">
-                    <div class="contact__item">
-                        <form action="" method="post" onsubmit="return validate_form ();">
-                            <div class="form__contact">
-                                <div class="form__item">
-                                    <div class="form__name">YOUR NAME</div>
-                                </div>
-                                <div class="form__item">
-                                    <div class="form__email">YOUR E-MAIL</div>
-                                </div>
-                                <div class="form__item">
-                                    <input type="text" class="form__input__name form__input">
-                                </div>
-                                <div class="form__item">
-                                    <input type="text" class="form__input__email form__input">
-                                </div>
-                                <div class="form__item"></div>
-                                <div class="form__item">
-                                    <div class="form__message">MESSAGE</div>
-                                </div>
-                                <div class="form__item">
-                                    <textarea name="" id="" cols="30" rows="10" class="form__input"></textarea>
-                                </div>
-                                <div class="form__item">
-                                    <input type="submit" class="form__input__btn" value="Send">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contact__item">
-                        <div class="contact__text">Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help.</div>
-                        <div class="contact__name">Postma Elena</div>
-                        <div class="contact__email">e-mail: postma.elena@gmail.com</div>
+                    <form class="contact__item form">
+                        <div class="form__row">
+                            <input type="text" required placeholder="Your name" pattern="^[A-Za-z\s]+$" class="form__item form__name">
+                            <input type="email" required placeholder="Your email" class="form__item form__email">
+                        </div>
+                        <textarea wrap="soft" required placeholder="Message" class="form__message"></textarea>
+                        <div class="contact__rowbtn">
+                            <input type="submit" class="contact__btn" value="Send"/>
+                        </div>
+                    </form>
+                    <div class="contact__item contacts">
+                        <div class="contacts__text">Have an idea for a project? Just looking to 
+                            explore and see the possibilities?
+                            I'm here to help.
+                        </div>
+                        <div class="contacts__title">Postma Elena</div>
+                        <div class="contacts__email">e-mail: <b>postma.elena@gmail.com</b></div>
                     </div>
                 </div>
+                
             </div>
-        </article>
+        </section>
         <footer class="footer">
-            <div class="footer__container container">
-                <div class="footer__item">
-                    <div class="footer__logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="footer__row">
-                        <a href="#headerId" class="footer__columns">Home</a>
-                        <a href="" class="footer__columns">Facebook</a>
-                        <a href="" class="footer__columns">Linkedin</a>
-                        <a href="#contactId" class="footer__columns">Contact</a>
-                    </div>
-                    <div class="footer__copyright">© 2015. All Rights Reserved </div>
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img src="imgs/logo.png" alt="">
                 </div>
+                <div class="footer__row">
+                    <a href="#" class="footer__item">Home</a>
+                    <a href="#" class="footer__item">Facebook</a>
+                    <a href="#" class="footer__item">Likedin</a>
+                    <a href="#" class="footer__item">Contact</a>
+                </div>
+                <div class="footer__text">© 2020. All Rights Reserved </div>
             </div>
         </footer>
     </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/SmoothTransition.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>

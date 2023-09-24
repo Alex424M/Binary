@@ -1,14 +1,26 @@
-const form = document.querySelector('.form__contact');
-const inputs = document.querySelectorAll('.form__input');
+// var name = document.getElementsByClassName('form__name');
+// var btn = document.getElementsByClassName('contact__btn');
 
-function validate_form() {
-    let valid = true;
-    for (let i = 0; i < inputs.length; i++) {
-        inputs[i].style.border = "none";
-        if (inputs[i].value == "") {
-            valid = false;
-            inputs[i].style.border = "1px solid red";
-        }
-    }
-    return valid;
-}
+// console.log(name)
+// name.onkeypress = function(e) {
+//     e = e || event;
+  
+//     if (e.ctrlKey || e.altKey || e.metaKey) return;
+  
+//     var chr = getChar(e);
+  
+//     // с null надо осторожно в неравенствах,
+//     // т.к. например null >= '0' => true
+//     // на всякий случай лучше вынести проверку chr == null отдельно
+//     if (chr == null) return;
+  
+//     if (chr < '0' || chr > '9') {
+//       return false;
+//     }
+//   }
+// btn.addEventListener('click',()=>{
+//     if(name.)
+// })
+// function validation(){
+
+// }
